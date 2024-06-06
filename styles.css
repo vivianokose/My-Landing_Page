@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #ff8533;
+}
+
+/* Cover Section Styles */
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url('cover-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    position: relative;
+}
+
+.cover-text {
+    position: absolute;
+    z-index: 1;
+}
+
+.cover-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.cover-text p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about {
+    background: #f4f4f4;
+}
+
+/* Key Features Section */
+#features {
+    background: #fff;
+    padding: 60px 20px;
+}
+
+.feature {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.feature h3 {
+    margin: 10px 0;
+}
+
+/* Video Section */
+#video {
+    background: #f9f9f9;
+    padding: 60px 20px;
+}
+
+#video video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* About Project Section */
+#about-project {
+    background: #f4f4f4;
+}
+
+.team-links {
+    list-style: none;
+    padding: 0;
+}
+
+.team-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.team-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.team-links a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    background: #f4f4f4;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
