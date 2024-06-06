@@ -1,0 +1,65 @@
+# Site settings
+title: Book Haven
+description: "Your go-to online bookstore for a wide range of books."
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Author settings
+author:
+  name: Vivian Okose
+  email: vivianokose@gmail.com
+
+# Theme settings (if using a Jekyll theme)
+theme: minima
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  books:
+    output: true
+    permalink: /books/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Defaults for books
+defaults:
+  - scope:
+      path: "books"
+      type: "books"
+    values:
+      layout: "book"
+      category: "book"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Include specific files
+include:
+  - _pages
+  - _posts
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Custom variables
+owner: "Book Haven Team"
+contact_email: contact@bookhaven.com
+social:
+  twitter: "https://twitter.com/bookhaven"
+  facebook: "https://facebook.com/bookhaven"
+  instagram: "https://instagram.com/bookhaven"
+
